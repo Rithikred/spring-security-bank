@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ContactController {
 
-    @GetMapping("/welcome")
-    public String sayWelcome(){
-        return "Welcome to Spring Authentication";
+    @GetMapping("/contact")
+    public String saveContactInquiryDetails(){
+        return "Contact details are saved to the DB";
     }
 }

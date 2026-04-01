@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BalanceController {
 
-    @GetMapping("/welcome")
-    public String sayWelcome(){
-        return "Welcome to Spring Authentication";
+    @GetMapping("/myBalance")
+    public String getBalanceDetails(){
+        return "Here are the balance details from the DB";
     }
 }
